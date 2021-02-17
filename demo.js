@@ -3,6 +3,7 @@ import cfg from './config/config.js';
 
 // Main Application utilities
 import {Application} from './lib/application.js';
+import './lib/w2component.js';
 
 // TODO: Can we simplify this?
 var sidebar = {
@@ -60,9 +61,9 @@ var app = new Application($('#main'), {
 
     // TODO: rename root_layout?
     // This is the default layout definition to use for the page root element
-    default_layout: "main",
+    default_component: "main",
     
-    layouts: {
+    components: {
         "main" : {
             type: "w2layout",
             def: {
