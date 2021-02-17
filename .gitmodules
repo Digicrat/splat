@@ -1,0 +1,3 @@
+[submodule "lib/ext/w2ui"]
+	path = lib/ext/w2ui
+	url = https://github.com/vitmalina/w2ui.git
